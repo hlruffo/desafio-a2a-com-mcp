@@ -1,0 +1,12 @@
+[project]
+name = "a-ponte-a2a-mcp"
+version = "1.0.0"
+description = "Agente A2A com servidor MCP Streamable HTTP"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp==2.0.0",
+  "uvicorn==0.38.0",
+]
+
+[tool.uv]
+package = false
